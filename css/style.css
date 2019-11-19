@@ -1,0 +1,147 @@
+/* ======================================= */
+/* ============  CSS Start  ============== */
+/* ======================================= */
+
+/* ======================================= */
+/*
+      Name      : Abdullah Al Nayeem
+      Email     : nayeem.3119@gmail.com
+      Address   : Savar, Dhaka, Bangladesh
+      LinkedIn  : linkedin.com/in/AbdullahAlNayeem
+
+*/
+/* ======================================= */
+
+
+
+/* ======================================= */
+/* ========  Global CSS Section  ========= */
+
+html{
+  scroll-behavior: smooth;
+}
+ul li{
+  list-style: none;
+}
+h1{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+
+/* ======================================= */
+/* ============  Header Area  ============ */
+
+header{
+  background: #f5f5f5;
+  padding: 10px 0;
+}
+header p{
+  display: inline;
+  font-size: 12px;
+  color: #7f7f7f;
+}
+header i{
+  margin-left: 10px;
+  color: #7f7f7f;
+}
+
+/* ======================================= */
+/* ============  Navbar Area  ============ */
+
+.nav-area{
+  background: #fff;
+}
+.nav-area img{}
+.nav-area ul{}
+.nav-area ul li{
+  display: inline-block;
+  margin-left: 8px;
+}
+.nav-area ul li a{
+  color: #3b404f;
+}
+.nav-area ul li i{
+  color: #3b404f;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.nav-area ul li a:hover,
+.nav-area ul li i:hover{
+  color: #fab702;
+  cursor: pointer;
+}
+
+/* ======================================= */
+/* ============  Banner Area  ============ */
+.banner-area{
+  background: linear-gradient(rgba(66,71,253,0.5),rgba(66,71,253,0.5)), url(../img/banner-bg.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  padding: 100px 0;
+  color: #fff;
+}
+.banner-area p{
+  width: 90%;
+  text-align: left;
+  margin: 40px 0;
+  font-size: 15px;
+}
+.banner-area .btn-banner{
+  padding: 10px 36px;
+  text-transform: capitalize;
+  font-size: 17px;
+  background: #fab702;
+  border: none;
+  margin-bottom: 40px;
+}
+.banner-area .btn-banner:hover{
+  background: #fdc632;
+  color: #222;
+}
+
+/* ======================================= */
+/* ===========  Consult Area  ============ */
+.consult-area{
+  background: linear-gradient(rgba(166,121,1,0.6),rgba(166,121,1,0.6)), url(../img/consult-bg.png) no-repeat;
+  background-size: cover;
+  padding: 25px 0 20px;
+}
+.consult-area p{
+  font-size: 24px;
+  color: #fff;
+}
+.consult-area .consult-p{
+  color: #111;
+  font-style: italic;
+}
+.consult-area .consult-p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.consult-area .btn-consult{
+  background: #eee;
+  border: none;
+  padding: 9px 30px;
+  color: #111;
+}
+.consult-area .btn-consult:hover{
+  background: #fdc632;
+  color: #222;
+}
+.consult-area
+
+
+
+
+
+
+
+
+
+
+
+....
