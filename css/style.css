@@ -20,6 +20,9 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  color: #3b404f;
+}
 ul li{
   list-style: none;
 }
@@ -28,6 +31,18 @@ h1{
   font-weight: 700;
   font-size: 60px;
 }
+.hero-text{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.hero-text h2{
+  text-transform: uppercase;
+}
+.hero-text p{
+  margin: 20px 0 60px;;
+}
+
 
 
 /* ======================================= */
@@ -39,7 +54,7 @@ header{
 }
 header p{
   display: inline;
-  font-size: 12px;
+  font-size: 13px;
   color: #7f7f7f;
 }
 header i{
@@ -61,6 +76,7 @@ header i{
 }
 .nav-area ul li a{
   color: #3b404f;
+  font-size: 15px;
 }
 .nav-area ul li i{
   color: #3b404f;
@@ -106,7 +122,7 @@ header i{
 /* ======================================= */
 /* ===========  Consult Area  ============ */
 .consult-area{
-  background: linear-gradient(rgba(166,121,1,0.6),rgba(166,121,1,0.6)), url(../img/consult-bg.png) no-repeat;
+  background: url(../img/consult-bg.png) no-repeat;
   background-size: cover;
   padding: 25px 0 20px;
 }
@@ -129,15 +145,69 @@ header i{
   color: #111;
 }
 .consult-area .btn-consult:hover{
-  background: #fdc632;
-  color: #222;
+  background: #fab702;
+  color: #fff;
 }
-.consult-area
 
+/* ======================================= */
+/* ===========  Service Area  ============ */
 
+.service-area{
+  background: #fff;
+  padding: 80px 0;
+}
+.service-area .card{
+  border: none;
+}
+.service-area .card-title{
+  text-transform: uppercase;
+}
+.service-area .card-title:hover{
+  color: #fab702;
+  cursor: pointer;
+}
+.service-area .card-body{
+  padding: 20px 0 20px 0;
+}
+.service-area .card a{
+  color: #3b404f;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.service-area .card a:hover{
+  text-decoration: underline;
+  color: #fab702;
+}
 
+/* ======================================= */
+/* ============  Video Area  ============= */
 
+.video-area{
+  padding: 40px 0;
+  background: #f7f7f7;
+}
+.video-area .card{
+  background: transparent;
+  border: none;
+}
+.video-area .card img{
+  width: 40%;
+  display: block;
+  margin: 15% auto;
+}
+.video-area .card-title{
+  text-transform: uppercase;
+}
+.video-area .card-title:hover{
+  color: #fab702;
+  cursor: pointer;
+}
+.video-area .card p{
+  font-size: 14px;
+}
 
+/* ======================================= */
+/* ============  Video Area  ============= */
 
 
 
