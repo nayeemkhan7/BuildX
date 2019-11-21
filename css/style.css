@@ -183,7 +183,7 @@ header i{
 /* ============  Video Area  ============= */
 
 .video-area{
-  padding: 40px 0;
+  padding: 40px 0 30px;
   background: #f7f7f7;
 }
 .video-area .card{
@@ -207,11 +207,96 @@ header i{
 }
 
 /* ======================================= */
-/* ============  Video Area  ============= */
+/* ========  Featured Works Area  ======== */
+
+.work-area{
+  background: #fff;
+  padding: 80px 0;
+}
+.work-area ul{
+  margin-bottom: 60px;
+}
+.work-area ul li{
+  display: inline;
+  margin: 2px;
+}
+.work-area ul li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 7px 12px;
+  color: #3b404f;
+  transition: all 0.25s linear;
+}
+.work-area ul li:hover a{
+  background: #fab702;
+  border-color: #fab702;
+  color: #fff;
+}
+
+/* ======== Gallery Start ======== */
+
+.work-area .works{
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+.work-area .work-img{}
+.work-area .work-img:hover{
+  transform: scale(1.08);
+  transition: all 0.3s linear;
+}
+.work-area .overlay{
+  position: absolute;
+  background: #fef6de;
+  height: 30%;
+  width: 100%;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  transition: all 0.1s linear;
+  opacity: 0;
+}
+.work-area .works:hover .overlay{
+  opacity: 1;
+}
+.work-area .overlay h5{
+  text-transform: uppercase;
+  color: #3b404f;
+  font-size: 18px;
+  margin-right: 2rem;
+  margin-top: 1.3rem;
+}
+.work-area .overlay .line{
+  width: 60px;
+  background: #3b404f;
+  border: 1px solid #3b404f;
+}
+.work-area .overlay ul{}
+.work-area .overlay ul li:nth-child(2),
+.work-area .overlay ul li:nth-child(3){
+  margin: 1rem 0.2rem 0;
+  background: #fab702;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+.work-area .overlay ul li .fa{
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.2rem;
+}
+
+/* ======================================= */
+/* ===========  Feedback Area  =========== */
 
 
 
 
 
 
+/* color: #3b404f; */
 ....
