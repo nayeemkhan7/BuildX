@@ -153,18 +153,19 @@ header i{
 /* ===========  Service Area  ============ */
 
 .service-area{
-  background: #fff;
+  background: #f7f7f7;
   padding: 80px 0;
 }
 .service-area .card{
   border: none;
+  background: transparent;
 }
 .service-area .card-title{
   text-transform: uppercase;
 }
 .service-area .card-title:hover{
   color: #fab702;
-  cursor: pointer;
+  cursor: default;
 }
 .service-area .card-body{
   padding: 20px 0 20px 0;
@@ -172,6 +173,7 @@ header i{
 .service-area .card a{
   color: #3b404f;
   text-decoration: none;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .service-area .card a:hover{
@@ -184,7 +186,7 @@ header i{
 
 .video-area{
   padding: 40px 0 30px;
-  background: #f7f7f7;
+  background: #fff;
 }
 .video-area .card{
   background: transparent;
@@ -210,7 +212,7 @@ header i{
 /* ========  Featured Works Area  ======== */
 
 .work-area{
-  background: #fff;
+  background: #f7f7f7;
   padding: 80px 0;
 }
 .work-area ul{
@@ -240,7 +242,7 @@ header i{
 .work-area .works{
   position: relative;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 3px;
   margin: 1rem 0;
 }
 .work-area .work-img{}
@@ -256,8 +258,8 @@ header i{
   top: 85%;
   left: 50%;
   transform: translate(-50%,-50%);
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
   transition: all 0.1s linear;
   opacity: 0;
 }
@@ -293,10 +295,228 @@ header i{
 /* ======================================= */
 /* ===========  Feedback Area  =========== */
 
+.feedback-area{
+  background: #fff;
+  padding: 80px 0;
+}
+.feedback-area .card{
+  background: #f7f7f7;
+  border: 0;
+}
+.feedback-area .img-back{
+  background: #eb768c;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.feedback-area .card img{
+  width: 90%;
+  display: block;
+  margin: 1rem auto;
+}
+.feedback-area .card-body{
+  padding-left: 0;
+}
+.feedback-area .card-text{}
+.feedback-area .card-title{
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.feedback-area .clients{
+  padding: 80px 0 0;
+}
+
+/* ======================================= */
+/* ===========  Counter Area  ============ */
+
+.counter-area{
+  background: linear-gradient(rgba(249,202,36,0.8),rgba(249,202,36,0.8)) , url(../img/consult-bg.png) no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding: 35px 0 30px;
+  color: #fff;
+}
+.counter-area p{
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.counter-area h5{
+  font-size: 40px;
+}
+
+/* ======================================= */
+/* ============  Style Area  ============= */
+
+.style-area{
+  padding: 50px 0;
+  background: #f9f9f9;
+}
+.style-area .embed{
+  background: #fff;
+  padding: 20px 10px 10px;
+  border-left: 4px solid #fab702;
+}
+.style-area h5{}
+.style-area p{
+  font-size: 14px;
+}
+.style-area .btn-embed{
+  background: #fab702;
+  border: 1px solid #fab702;
+  padding: 9px 20px;
+}
+.style-area .btn-embed:hover{
+  background: #f9ca24;
+  color: #555;
+}
+
+/* ======================================= */
+/* =============  News Area  ============= */
+
+.news-area{
+  background: #fff;
+  padding: 80px 0;
+}
+.news-area .card{
+  border: 0;
+}
+.news-area .card-body{
+  padding: 1rem 0 1rem;
+}
+.news-area .card-title{
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.news-area .news-date{
+  margin-bottom: 0.7rem;
+}
+.news-area .news-date p{
+  display: inline;
+  text-transform: uppercase;
+}
+.news-area .card-text{
+  line-height: 1.4;
+}
+.news-area .card a{
+  text-transform: uppercase;
+  color: #3b404f;
+  font-weight: 500;
+}
+.news-area .card a:hover{
+  color: #fab702;
+}
+
+/* ======================================= */
+/* ===========  Contact Area  ============ */
+
+/* ======= First Column =======  */
+
+.contact-area{
+  background: #252c3a;
+  padding: 80px 0;
+  color: #fff;
+}
+.contact-area .c-head{
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+.contact-area ul{
+  padding-left: 0;
+}
+.contact-area ul li{}
+.contact-area ul li i{
+  font-size: 12px;
+}
+.contact-area p{
+  display: inline;
+  font-size: 14px;
+}
+.contact-area .linex{
+  border-bottom: 2px solid #303744;
+  margin: 0.5rem 0 0.8rem;
+}
+/* ======= Second Column =======  */
+.contact-area .news-img{}
+.contact-area .c2{
+  font-size: 14px;
+  margin: 0;
+}
+.contact-area .c2d{
+  margin-top: 0.4rem;
+}
+
+/* ======= Third Column =======  */
+
+.contact-area .new-line{
+  display: block;
+  margin-left: 1.5rem;
+}
+.contact-area .fao{
+  font-size: 16px;
+  margin-right: 0.4rem;
+}
+.contact-area .fas{
+  font-size: 30px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+.contact-area .fas:hover{
+  transform: rotate(360deg);
+}
+
+/* ======= Fourth Column =======  */
+
+.contact-area .input-group{
+  margin-left: 0;
+  padding-left: 0;
+}
+.contact-area .btn-mail{
+  background: #fab702;
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fab702;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.contact-area .form-control{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.contact-area .privacy{
+  text-transform: capitalize;
+  color: #999;
+  margin-top: 1.2rem;
+  font-size: 14px;
+}
+.contact-area .form-control::placeholder{
+  font-size: 14px;
+}
+
+/* ======================================= */
+/* ============  Footer Area  ============ */
+
+footer{
+  background: #4c5b6d;
+  padding: 15px 0 0px;
+  color: #f7f7f7;
+}
+footer ul{}
+footer ul li{
+  display: inline;
+  margin-left: 0.8rem;
+}
+footer ul li a{
+  color: #f7f7f7;
+}
+footer ul li a:hover{
+  text-decoration: none;
+  color: #fab702;
+}
 
 
 
 
 
-/* color: #3b404f; */
-....
+/* ======================================= */
+/* =============  CSS End  =============== */
+/* ======================================= */
